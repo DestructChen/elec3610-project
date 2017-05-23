@@ -1,12 +1,18 @@
-.headertext { 
+#headertext { 
    position: relative; 
    width: 100%; /* for IE 6 */
+   background-color:black;
+   padding:20px 20px 20px 20px	;
+   color:white;
+   text-align:center;
 }
 
-h2 { 
-   position: absolute; 
-   top: 20px; 
-   left: 0; 
-   width: 100%; 
-   color:white;
+body{
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#link_bar{
+	padding-top:20px;	
+	padding-bottom:20px;
 }

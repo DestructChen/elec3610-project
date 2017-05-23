@@ -36,7 +36,7 @@ public class CreateAnnouncementServlet extends HttpServlet {
 	        // response to the client
 	        PrintWriter out = response.getWriter();
 	        response.setContentType("text;html;charset=utf-8");
-	   
+	        //test	
 			// New location to be redirected
 			response.sendRedirect("index.html");
 
